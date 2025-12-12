@@ -1,240 +1,111 @@
-# Next-Gen Portfolio with AI Twin — Built with Next.js 16, Sanity CMS, Clerk & OpenAI's NEW AgentKit & ChatKit
+# 🚀 Next-Gen AI Portfolio
 
-A stunning, AI-powered portfolio website featuring your **AI Twin** that represents you 24/7. Your digital clone answers questions about your experience, skills, and projects with intelligent, context-aware responses. Built with Next.js 16, Sanity CMS, Clerk authentication, and OpenAI ChatKit.
+> A modern, AI-powered portfolio website with an intelligent chatbot that represents you 24/7. Built with Next.js 16, Google Gemini AI, and cutting-edge web technologies.
 
-> **Note:** This is a **Dual App Architecture** - You get TWO powerful applications in one repository:
-> 1. **Frontend Portfolio** - Your stunning public-facing portfolio with AI Twin
-> 2. **Sanity Studio Backend** - Complete CMS for managing all your content at `/studio`
-> 
-> Plus a cutting-edge **AI Twin** feature—an intelligent chat assistant that knows everything about you and can engage with visitors even when you're not available.
+**Created by:** [Prashant Patil](https://github.com/PrashantPatil10178)
 
-## 👇🏼 DO THIS Before you get started
+[![Next.js](https://img.shields.io/badge/Next.js-16-black)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.9-blue)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-4.0-38bdf8)](https://tailwindcss.com/)
+[![Google Gemini](https://img.shields.io/badge/Google-Gemini-4285F4)](https://ai.google.dev/)
 
-> Note: Using the referral links below helps support the development of this project through affiliate partnerships, allowing me to provide these tutorials for free!
+## ✨ Features
 
-### 1) Set up Clerk using our link! (It supports us in doing this for FREE!)
+### 🤖 AI-Powered Chat
 
-Create a Clerk account at [Clerk](https://go.clerk.com/O6Jzq2c) for authentication
+- **Smart Assistant**: Intelligent chatbot powered by Google Gemini AI that knows everything about you
+- **Real-time Streaming**: Smooth, natural conversation flow with streaming responses
+- **Context-Aware**: Your AI twin understands your experience, skills, projects, and achievements
+- **Beautiful UI**: Animated chat interface with smooth transitions and typing indicators
+- **Markdown Support**: Rich text formatting in responses for better readability
 
-### 2) Set up Sanity
+### 🎨 Modern Design
 
-Create a Sanity account at [Sanity](https://www.sanity.io/sonny?utm_source=youtube&utm_medium=video&utm_content=next-gen-portfolio) for content management
+- **Dark/Light Mode**: Seamless theme switching with system preference detection
+- **Responsive Layout**: Perfect on all devices - mobile, tablet, and desktop
+- **Smooth Animations**: Powered by Framer Motion for delightful user interactions
+- **Floating Dock Navigation**: macOS-style navigation for smooth section scrolling
+- **Gradient Effects**: Beautiful background animations and modern UI elements
 
-### 3) Set up OpenAI
+### 📋 Portfolio Sections
 
-Create an OpenAI account at [OpenAI](https://openai.com) to power your AI Twin
+- **Hero Section**: Stunning introduction with animated text and profile image
+- **About**: Comprehensive bio and professional introduction
+- **Experience**: Work history with achievements and technologies
+- **Education**: Academic background and qualifications
+- **Projects**: Showcase your best work with live demos and GitHub links
+- **Certifications**: Professional certifications and credentials
+- **Achievements**: Awards, recognitions, and milestones
+- **Contact Form**: Functional contact form with validation
 
-## Features
-
-### For Visitors
-
-- **Your AI Twin** 🤖: An intelligent digital clone of you that engages with visitors 24/7, answering questions about your experience, skills, and projects as if they're talking to you directly
-- **Dynamic Hero Section** ✨: Animated headline with text-flipping effects showcasing your expertise
-- **Comprehensive Sections**: 
-  - Hero with animated headlines
-  - About with rich bio content
-  - Skills visualization with interactive charts
-  - Work experience timeline
-  - Education history
-  - Portfolio projects showcase
-  - Professional certifications
-  - Awards & achievements
-  - Service offerings
-  - Client testimonials with animated carousel
-  - Blog posts
-  - Contact form with validation
-- **Floating Navigation Dock**: Beautiful macOS-style dock for smooth section navigation
-- **Responsive Design**: Optimized for all devices from mobile to desktop
-- **Dark Mode Toggle** 🌓: Seamless theme switching with system preference detection (Light/Dark/System modes)
-- **Beautiful Animations**: Smooth transitions and micro-interactions using Framer Motion
-- **Real-Time Content**: Live content updates with Sanity's Live API
-
-### AI Twin Features
-
-- **Your Digital Clone**: An AI Twin powered by OpenAI ChatKit that represents you with customizable personality modes:
-  - **Crisp**: Concise and factual responses (professional mode)
-  - **Clear**: Focused and helpful answers (balanced mode)
-  - **Chatty**: Conversational companion mode (friendly mode)
-- **Context-Aware Intelligence**: Your AI Twin knows everything about your portfolio—experience, skills, projects, achievements, and more
-- **Personalized Greetings**: Introduces itself as you, creating a personal connection with visitors
-- **Suggested Prompts**: Pre-built conversation starters to guide visitor interactions
-- **Real-Time Streaming**: Responses stream in naturally like a real conversation
-- **Always Available**: Your AI Twin engages visitors 24/7, even when you're sleeping or busy
-
-### Dual App Architecture - Two Apps in One Repo
-
-- **Frontend Portfolio (User-Facing)**: 
-  - Beautiful, responsive portfolio website at `/`
-  - AI Twin chat interface
-  - All your sections: hero, about, skills, projects, blog, contact, etc.
-  - Real-time content updates with Sanity's Live API
-
-- **Sanity Studio Backend (Admin CMS)**: 
-  - Powerful content management system built into your app at `/studio`
-  - Manage all content: profile, skills, projects, blog posts, testimonials, and more
-  - Visual editing with Presentation Tool - see changes in real-time
-  - Draft mode - preview unpublished content before going live
-  - Media management - upload and manage images with automatic optimization
-  - Structured content with type-safe, auto-generated TypeScript types
-  - GROQ query playground for testing data queries
-  - 61 sample documents included - start with pre-populated content
-
-### Technical Features
+### ⚡ Technical Highlights
 
 - **Next.js 16** with App Router and React 19
-- **Turbopack** for lightning-fast development builds
-- **TypeScript** end-to-end with strict mode
-- **Tailwind CSS v4** for modern styling
-- **next-themes** for dark mode support with system preference detection
-- **Clerk** for secure authentication
-- **Sanity CMS** with real-time preview
-- **OpenAI ChatKit** for your AI Twin chat interface
+- **Turbopack** for blazing-fast development builds
+- **TypeScript** for type safety and better developer experience
+- **Tailwind CSS v4** for modern, utility-first styling
+- **Google Gemini API** for AI-powered conversations
 - **Framer Motion** for smooth animations
-- **Recharts** for data visualization
-- **Biome** for linting and formatting
+- **Recharts** for beautiful data visualizations
 - **Server Components** for optimal performance
-- **🎯 Dual App Architecture**: Two complete applications in one codebase
-  - Portfolio frontend for visitors
-  - Sanity Studio backend for content management
 
-## Getting Started
+## 🚀 Getting Started
 
 ### Prerequisites
 
-- Node.js 18+
-- npm, yarn, or pnpm
-- Accounts: Clerk, Sanity, OpenAI
+- Node.js 18+ installed
+- npm, yarn, or pnpm package manager
+- Google AI API key ([Get one here](https://aistudio.google.com/apikey))
 
-### 1) Clone & Install
+### Installation
+
+1. **Clone the repository**
 
 ```bash
-# Clone the repository
-git clone <your-repo-url>
-cd next-gen-portfolio-sanity-nextjs-clerk
+git clone https://github.com/PrashantPatil10178/Portfolio.git
+cd Portfolio
+```
 
-# Install dependencies
-pnpm install
-# or
+2. **Install dependencies**
+
+```bash
 npm install
+# or
+pnpm install
 # or
 yarn install
 ```
 
-### 2) Environment Variables
+3. **Set up environment variables**
 
-Create a `.env.local` file in the **project root**:
+Create a `.env.local` file in the root directory:
 
 ```env
-# Clerk Authentication
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_ZXhhbXBsZS1jbGVyay1wdWJsaXNoYWJsZS1rZXktMTIzNDU2
-CLERK_SECRET_KEY=sk_test_ZXhhbXBsZS1jbGVyay1zZWNyZXQta2V5LTEyMzQ1Ng
+# Google Gemini API Key for AI chat functionality
+GOOGLE_GENERATIVE_AI_API_KEY=your_api_key_here
 
-# Sanity CMS
-NEXT_PUBLIC_SANITY_PROJECT_ID=abc123de
-NEXT_PUBLIC_SANITY_DATASET=production
-NEXT_PUBLIC_SANITY_API_VERSION=2025-10-15
-
-# Sanity Studio Preview (for local development)
-SANITY_STUDIO_PREVIEW_ORIGIN=http://localhost:3000
-
-# OpenAI for AI Chat
-OPENAI_API_KEY=sk-proj-AbCdEfGhIjKlMnOpQrStUvWxYz1234567890AbCdEfGhIjKlMnOpQrStUvWxYz
+# Optional: Choose a different model (default: gemini-flash-latest)
+# Options: gemini-1.5-flash, gemini-1.5-pro, gemini-2.0-flash-exp
+GOOGLE_MODEL_NAME=gemini-flash-latest
 ```
 
-**Important Notes:**
+4. **Customize your data**
 
-- **NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY**: Found in Clerk Dashboard → API Keys (starts with `pk_test_` or `pk_live_`)
-- **CLERK_SECRET_KEY**: Found in Clerk Dashboard → API Keys (starts with `sk_test_` or `sk_live_`) - **Never expose this publicly!**
-- **NEXT_PUBLIC_SANITY_PROJECT_ID**: Found in Sanity project settings (8-character alphanumeric ID)
-- **NEXT_PUBLIC_SANITY_DATASET**: Usually `production` or `development` - matches your Sanity dataset name
-- **OPENAI_API_KEY**: Found in OpenAI Dashboard → API Keys (starts with `sk-proj-` or `sk-`)
+Edit `lib/data.tsx` to add your own:
 
-> **Security:** The `NEXT_PUBLIC_` prefix makes these variables available in client-side code. Only use this prefix for non-sensitive data like project IDs and publishable keys. Never prefix secret keys with `NEXT_PUBLIC_`!
+- Personal information
+- Work experience
+- Education history
+- Projects
+- Skills
+- Achievements
+- Certifications
 
-### 3) Configure Clerk
+5. **Add your profile image**
 
-1. Create a new application at [Clerk](https://go.clerk.com/O6Jzq2c)
-2. Enable **Email** and **Google** as authentication providers (or your preferred methods)
-3. Copy the **Publishable Key** and **Secret Key** into `.env.local`
-4. Configure allowed origins in Clerk Dashboard:
-   - Add `http://localhost:3000` for development
-   - Add your production domain for deployment
-5. (Optional) Customize the appearance in Clerk Dashboard → Customization
+Place your image as `public/hero-image.jpg` (or update the path in `lib/data.tsx`)
 
-### 4) Configure Sanity
-
-1. Create a Sanity account at [Sanity](https://www.sanity.io/sonny?utm_source=youtube&utm_medium=video&utm_content=next-gen-portfolio)
-2. Initialize your Sanity project:
-
-```bash
-# Install Sanity CLI globally (if not already installed)
-npm install -g @sanity/cli
-
-# Login to Sanity
-sanity login
-```
-
-3. Create a new project or link to an existing one:
-
-```bash
-# Initialize in the current directory (it will detect existing config)
-sanity init
-```
-
-4. Copy your **Project ID** and add to `.env.local` as `NEXT_PUBLIC_SANITY_PROJECT_ID`
-5. Set up CORS settings:
-   - Go to [manage.sanity.io](https://manage.sanity.io)
-   - Select your project → API → CORS Origins
-   - Add `http://localhost:3000` for development
-   - Add your production domain for deployment
-6. Import sample data:
-
-```bash
-# Navigate to Data folder
-cd Data
-
-# Option 1: Use the automated import script (Mac/Linux)
-chmod +x import-all.sh
-./import-all.sh production
-
-# Option 2: Use the automated import script (Windows)
-import-all.bat production
-
-# Option 3: Import manually
-sanity dataset import skills.ndjson production --replace
-sanity dataset import profile.ndjson production --replace
-sanity dataset import education.ndjson production --replace
-sanity dataset import experience.ndjson production --replace
-sanity dataset import projects.ndjson production --replace
-sanity dataset import blog.ndjson production --replace
-sanity dataset import services.ndjson production --replace
-sanity dataset import achievements.ndjson production --replace
-sanity dataset import certifications.ndjson production --replace
-sanity dataset import testimonials.ndjson production --replace
-sanity dataset import siteSettings.ndjson production --replace
-sanity dataset import contact.ndjson production --replace
-sanity dataset import navigation.ndjson production --replace
-```
-
-7. Generate TypeScript types:
-
-```bash
-# From project root
-npm run typegen
-```
-
-### 5) Configure OpenAI
-
-1. Create an OpenAI account at [OpenAI](https://openai.com)
-2. Create a Realtime Session:
-   - Navigate to [API Keys](https://platform.openai.com/api-keys)
-   - Create a new API key
-   - Add to `.env.local` as `OPENAI_API_KEY`
-3. Ensure you have access to **GPT-4o** model or modify the chat configuration for other models
-
-### 6) Run Both Apps
-
-**Development mode - One command runs BOTH apps:**
+6. **Run the development server**
 
 ```bash
 npm run dev
@@ -244,204 +115,108 @@ pnpm dev
 yarn dev
 ```
 
-**🎉 Both apps will be running simultaneously:**
-- **Frontend Portfolio** (public-facing): http://localhost:3000
-- **Sanity Studio** (admin CMS): http://localhost:3000/studio
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-> Tip: Open both URLs in separate browser tabs - edit content in Studio and watch it update live in your Portfolio!
+## 📁 Project Structure
 
-**Production build:**
-
-```bash
-# Build the application
-npm run build
-
-# Start production server
-npm start
+```
+├── app/                    # Next.js app directory
+│   ├── (portfolio)/       # Portfolio routes
+│   ├── actions/           # Server actions
+│   └── api/               # API routes
+├── components/            # React components
+│   ├── chat/             # AI chat components
+│   ├── sections/         # Portfolio sections
+│   └── ui/               # Reusable UI components
+├── lib/                   # Utility functions
+│   ├── data.tsx          # Portfolio data (EDIT THIS!)
+│   ├── config.ts         # App configuration
+│   └── utils.ts          # Helper functions
+├── public/               # Static assets
+└── prompts/              # AI prompts configuration
 ```
 
-**Deploy Sanity Studio:**
+## 🎨 Customization
 
-```bash
-# Deploy Studio to Sanity's hosting
-sanity deploy
-```
+### Update Personal Information
 
-## Sample Data
+Edit `lib/data.tsx` to customize all portfolio content:
 
-The project includes comprehensive sample data in the `Data/` folder:
+- Profile information
+- Skills and expertise
+- Work experience
+- Education
+- Projects
+- Achievements
+- Contact details
 
-### What's Included (61 Documents)
+### Change AI Personality
 
-| Content Type | Count | Description |
-|--------------|-------|-------------|
-| Profile | 1 | Complete professional profile |
-| Skills | 15 | Frontend, Backend, AI/ML, DevOps, etc. |
-| Experience | 4 | Work history with achievements |
-| Education | 2 | University degrees |
-| Projects | 6 | Portfolio projects (3 featured) |
-| Blog Posts | 6 | Technical articles (3 featured) |
-| Services | 5 | Service offerings with pricing |
-| Achievements | 7 | Awards and recognitions |
-| Certifications | 5 | Professional certifications |
-| Testimonials | 6 | Client testimonials (5-star) |
-| Site Settings | 1 | Configuration and branding |
-| Contact | 3 | Sample inquiries |
-| Navigation | 16 | Floating dock menu items |
+Modify the prompts in `prompts/` directory to adjust how your AI twin responds.
 
-### Quick Import
+### Customize Styling
 
-```bash
-cd Data
+- Edit `app/globals.css` for global styles
+- Modify Tailwind config in `tailwind.config.ts`
+- Update component styles in respective files
 
-# Mac/Linux
-chmod +x import-all.sh
-./import-all.sh production
+### Add/Remove Sections
 
-# Windows
-import-all.bat production
-```
+Edit `components/PortfolioContent.tsx` to add or remove sections as needed.
 
-For detailed import instructions, see [`Data/README.md`](Data/README.md)
+## 🚢 Deployment
 
-## Common Issues
+### Deploy to Vercel (Recommended)
 
-### Development Issues
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/PrashantPatil10178/Portfolio)
 
-- **Port 3000 already in use**: Change port with `npm run dev -- -p 3001`
-- **TypeScript errors**: Run `npm run typegen` to regenerate Sanity types
-- **Build errors**: Clear `.next` folder and rebuild: `rm -rf .next && npm run build`
-- **Missing environment variables**: Check `.env.local` exists with all required variables
+1. Push your code to GitHub
+2. Import your repository in [Vercel](https://vercel.com)
+3. Add your environment variables in Vercel dashboard
+4. Deploy!
 
-### Sanity Issues
+### Other Platforms
 
-- **Studio not loading**: Ensure `NEXT_PUBLIC_SANITY_PROJECT_ID` is correct
-- **Can't upload images**: Check CORS settings in Sanity Dashboard
-- **Data not appearing**: Verify dataset name matches in `.env.local`
-- **Import fails**: Run imports in correct order (skills first, then others)
-- **Schema changes not reflecting**: Restart dev server and run `npm run typegen`
+The app can be deployed to any platform that supports Next.js:
 
-### Clerk Issues
+- Netlify
+- AWS Amplify
+- Railway
+- Render
+- Cloudflare Pages
 
-- **Authentication not working**: Verify Clerk keys are correct in `.env.local`
-- **Redirect errors**: Check allowed origins in Clerk Dashboard match your domain
-- **Session issues**: Clear browser cookies and try again
+## 🛠️ Built With
 
-### OpenAI Chat Issues
+- [Next.js](https://nextjs.org/) - React framework
+- [TypeScript](https://www.typescriptlang.org/) - Type safety
+- [Tailwind CSS](https://tailwindcss.com/) - Styling
+- [Google Gemini AI](https://ai.google.dev/) - AI chatbot
+- [Framer Motion](https://www.framer.com/motion/) - Animations
+- [Recharts](https://recharts.org/) - Data visualization
+- [React Markdown](https://github.com/remarkjs/react-markdown) - Markdown rendering
+- [Tabler Icons](https://tabler-icons.io/) - Icon library
 
-- **Chat not loading**: Verify `OPENAI_API_KEY` is set correctly
-- **Rate limit errors**: Check OpenAI usage limits in your dashboard
-- **Streaming not working**: Ensure ChatKit script loads (check Network tab)
+## 📝 License
 
-## 🚀 Join the World's Best Developer Course & Community - Zero to Full Stack Hero!
+This project is licensed under the MIT License - feel free to use it for your own portfolio!
 
-### Transform Your Career with Modern Full-Stack Development
+## 🤝 Contributing
 
-Ready to build production-ready applications like this Next-Gen Portfolio? Join **Zero to Full Stack Hero** - the ultimate course that teaches you to build real-world, revenue-generating applications using the latest technologies.
+Contributions, issues, and feature requests are welcome!
 
-### 🎯 What You'll Learn:
+## 📧 Contact
 
-- **React Native & Expo** - Build cross-platform mobile apps for iOS, Android, and Web
-- **AI Integration** - Build intelligent apps with OpenAI, Claude, and custom AI workflows
-- **Full-Stack Architecture** - From frontend to backend, databases to deployment
-- **Modern Authentication** - Clerk, Auth0, and custom auth solutions
-- **CMS Integration** - Sanity, Contentful, and headless CMS architectures
-- **Database Mastery** - SQL, NoSQL, Prisma, Convex, and more
-- **Payment Integration** - Stripe, subscription models, and billing systems
-- **Real-Time Features** - WebSockets, live updates, and collaborative apps
-- **Deployment & DevOps** - Vercel, AWS, Docker, and CI/CD pipelines
+**Prashant Patil**
 
-### 👥 Join the PAPAFAM Community:
+- GitHub: [@PrashantPatil10178](https://github.com/PrashantPatil10178)
+- LinkedIn: [prashantpatil178](https://www.linkedin.com/in/prashantpatil178)
+- Email: patilanilprashant178@gmail.com
+- Website: [prashantpatil.dev](https://prashantpatil.dev/)
 
-- **1,000+ Active Developers** helping each other succeed
-- **Weekly Live Coding Sessions** with Sonny Sangha
-- **Code Reviews & Feedback** from industry professionals
-- **Job Placement Support** and career guidance
-- **Exclusive Discord Community** with 24/7 support
-- **Networking Opportunities** with like-minded developers
+## ⭐ Show Your Support
 
-### 💼 Career Transformation:
-
-- **$50k-$150k+ Salary Increases** reported by graduates
-- **Portfolio Projects** that impress employers
-- **Interview Preparation** and technical assessment practice
-- **Freelancing Guidance** to start your own business
-- **Lifetime Access** to all course materials and updates
-
-### 🎁 Special Bonuses:
-
-- **100+ Hours** of premium video content
-- **Private GitHub Repositories** with complete source code
-- **Exclusive Templates & Boilerplates** to accelerate development
-- **Monthly Q&A Sessions** with industry experts
-- **Certificate of Completion** to showcase your skills
+If you find this project helpful, please give it a star on GitHub!
 
 ---
 
-**Ready to level up your development skills and build the future?**
-
-[🚀 **Join Zero to Full Stack Hero NOW**](https://www.papareact.com/course)
-
-_Join thousands of developers who've transformed their careers with PAPAFAM!_
-
-## 🏆 Take It Further - Challenge Time!
-
-### AI Twin Enhancements
-- Train your AI Twin on custom conversation flows and FAQs
-- Add voice capabilities to your AI Twin (text-to-speech)
-- Implement conversation memory so your AI Twin remembers past interactions
-- Add sentiment analysis to track visitor engagement
-- Create AI-generated portfolio summaries based on visitor interests
-- Build a feedback system to improve your AI Twin's responses
-
-### Portfolio Features
-- Add a resume/CV download feature
-- Implement a newsletter subscription with email integration
-- Extend dark mode with custom color themes (e.g., blue, purple, green variants)
-- Add automatic theme switching based on time of day
-- Create theme preview cards before applying
-- Add analytics dashboard to track portfolio visits and AI Twin conversations
-- Create a case study section with detailed project walkthroughs
-- Add video introductions to sections
-- Implement multi-language support (i18n)
-- Add a timeline visualization for career journey
-- Create interactive demos of your projects
-- Add a booking system for consultation calls
-- Implement real-time visitor counter
-- Add badge/certification verification system
-- Create a resources/downloads section
-- Build a mini-blog with comments (using Sanity comments API)
-- Add reading time estimates for blog posts
-- Implement tag-based filtering for projects and blog posts
-- Create a "hire me" workflow with availability calendar
-- Add testimonial submission form for clients
-- Build an admin dashboard for analytics
-- Implement A/B testing for different hero sections
-- Add webhook integrations for form submissions
-
-## 📄 License & Commercial Use
-
-This project is provided for **educational and learning purposes only**.
-
-### 🚨 Important Licensing Information:
-
-- **Personal Learning**: You are free to use this code for personal learning, experimentation, and portfolio demonstration
-- **Commercial Use**: Any commercial use, redistribution, or deployment of this code requires **explicit written permission** from Sonny Sangha
-- **No Resale**: You may not sell, redistribute, or claim ownership of this codebase
-- **Attribution Required**: If showcasing this project, proper attribution to Sonny Sangha and the original tutorial must be included
-
-### 📧 For Commercial Licensing:
-
-If you wish to use this code commercially or have licensing questions, please contact us at **team@papareact.com** with details about your intended use case.
-
-**Violation of these terms may result in legal action.**
-
----
-
-## Support
-
-For support, email team@papareact.com
-
-Built with ❤️ for the PAPAFAM
-
----
+Built with ❤️ by [Prashant Patil](https://github.com/PrashantPatil10178)---

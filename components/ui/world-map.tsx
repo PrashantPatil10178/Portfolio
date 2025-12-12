@@ -25,7 +25,7 @@ export default function WorldMap({
 
   const svgMap = map.getSVG({
     radius: 0.22,
-    color: theme === "dark" ? "#FFFFFF40" : "#00000040",
+    color: theme === "dark" ? "#FFFFFF90" : "#00000060",
     shape: "circle",
     backgroundColor: "transparent",
   });
@@ -38,7 +38,7 @@ export default function WorldMap({
 
   const createCurvedPath = (
     start: { x: number; y: number },
-    end: { x: number; y: number },
+    end: { x: number; y: number }
   ) => {
     const midX = (start.x + end.x) / 2;
     const midY = Math.min(start.y, end.y) - 50;
@@ -77,8 +77,8 @@ export default function WorldMap({
                 d.start.lat === dot.start.lat &&
                 d.start.lng === dot.start.lng &&
                 d.end.lat === dot.end.lat &&
-                d.end.lng === dot.end.lng,
-            ) as (typeof dots)[0],
+                d.end.lng === dot.end.lng
+            ) as (typeof dots)[0]
           );
           return (
             <g key={`path-group-${dot.id}`}>
